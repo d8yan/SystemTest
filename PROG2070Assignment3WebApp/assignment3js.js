@@ -1,6 +1,3 @@
-
-
-
 //identify variables
 var carObject={};
 var car=[];
@@ -161,13 +158,13 @@ function validateForm()
 
 
         carObject ={
-            Seller:firstName +" "+lastName,
-            Email:email,
+            Seller:firstName.toUpperCase() + " " + lastName.toUpperCase(),
+            Email:email.toUpperCase(),
             Phone:phone,
-            Address:address,
-            city:city,
-            PostCode:post,
-            Province:province,
+            Address:address.toUpperCase(),
+            City:city.toUpperCase(),
+            PostCode:post.toUpperCase(),
+            Province:province.toUpperCase(),
             Vehicle:year.toUpperCase()+" "+make.toUpperCase()+ " " + model.toUpperCase()
         };
        
